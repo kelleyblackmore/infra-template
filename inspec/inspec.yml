@@ -1,0 +1,16 @@
+name: my-profile
+title: My InSpec Profile
+maintainer: Your Name
+license: Apache-2.0
+summary: An InSpec Compliance Profile
+version: 0.1.0
+
+supports:
+  - os-family: unix
+  - os-family: windows
+
+# Define inputs (formerly known as attributes) if needed.
+inputs:
+  attribute_name:
+    description: "Description of the attribute"
+    value: "default_value"
